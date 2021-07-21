@@ -27,7 +27,6 @@ def log_level(temp_level=logging.WARNING):
     try:
         yield _logger
     finally:
-        pass
         _logger.setLevel(orig_level)
 
 
